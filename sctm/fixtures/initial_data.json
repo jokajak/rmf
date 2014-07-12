@@ -1,0 +1,171 @@
+[{
+    "pk": 1,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Access Control",
+        "description": "",
+        "control_family_id": "AC"
+    }
+}, {
+    "pk": 2,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Awareness and Training",
+        "description": "",
+        "control_family_id": "AT"
+    }
+}, {
+    "pk": 3,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Audit and Accountability",
+        "description": "",
+        "control_family_id": "AU"
+    }
+}, {
+    "pk": 4,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Security Assesment and Authorization",
+        "description": "",
+        "control_family_id": "CA"
+    }
+}, {
+    "pk": 5,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Configuration Management",
+        "description": "",
+        "control_family_id": "CM"
+    }
+}, {
+    "pk": 6,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Contingency Planning",
+        "description": "",
+        "control_family_id": "CP"
+    }
+}, {
+    "pk": 7,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Identification and Authentication",
+        "description": "",
+        "control_family_id": "IA"
+    }
+}, {
+    "pk": 8,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Incident Response",
+        "description": "",
+        "control_family_id": "IR"
+    }
+}, {
+    "pk": 9,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Maintenance",
+        "description": "",
+        "control_family_id": "MA"
+    }
+}, {
+    "pk": 10,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Media Protection",
+        "description": "",
+        "control_family_id": "MP"
+    }
+}, {
+    "pk": 11,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Physical and Environmental Protection",
+        "description": "",
+        "control_family_id": "PE"
+    }
+}, {
+    "pk": 12,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Planning",
+        "description": "",
+        "control_family_id": "PL"
+    }
+}, {
+    "pk": 13,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Personnel Security",
+        "description": "",
+        "control_family_id": "PS"
+    }
+}, {
+    "pk": 14,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Risk Assesment",
+        "description": "",
+        "control_family_id": "RA"
+    }
+}, {
+    "pk": 15,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "System and Services Acquisition",
+        "description": "",
+        "control_family_id": "SA"
+    }
+}, {
+    "pk": 16,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "System and Communication Protection",
+        "description": "",
+        "control_family_id": "SC"
+    }
+}, {
+    "pk": 17,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "System and Information Integrity",
+        "description": "",
+        "control_family_id": "SI"
+    }
+}, {
+    "pk": 18,
+    "model": "sctm.controlfamily",
+    "fields": {
+        "title": "Program Management",
+        "description": "",
+        "control_family_id": "PM"
+    }
+}, {
+    "pk": 1,
+    "model": "sctm.control",
+    "fields": {
+        "control": "The organization:\r\na. Develops, documents, and disseminates to [Assignment: organization-defined personnel or\r\nroles]:\r\n1. An access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\r\n2. Procedures to facilitate the implementation of the access control policy and associated access controls; and\r\nb. Reviews and updates the current:\r\n1. Access control policy [Assignment: organization-defined frequency]; and\r\n2. Access control procedures [Assignment: organization-defined frequency].",
+        "priority": 1,
+        "related_controls": [2],
+        "title": "ACCESS CONTROL POLICY AND PROCEDURES",
+        "control_id": 1,
+        "supplemental_guidance": "This control addresses the establishment of policy and procedures for the effective implementation of selected security controls and control enhancements in the AC family. Policy and procedures reflect applicable federal laws, Executive Orders, directives, regulations, policies, standards, and guidance. Security program policies and procedures at the organization level may make the need for system-specific policies and procedures unnecessary. The policy can be included as part of the general information security policy for organizations or conversely, can be represented by multiple policies reflecting the complex nature of certain organizations. The procedures can be established for the security program in general and for particular information systems, if needed. The organizational risk management strategy is a key factor in establishing policy and procedures.",
+        "control_family": 1,
+        "references": "NIST Special Publications 800-12, 800-100."
+    }
+}, {
+    "pk": 2,
+    "model": "sctm.control",
+    "fields": {
+        "control": "The organization:\r\na. Develops a comprehensive strategy to manage risk to organizational operations and assets, individuals, other organizations, and the Nation associated with the operation and use of information systems;\r\nb. Implements the risk management strategy consistently across the organization; and\r\nc. Reviews and updates the risk management strategy [Assignment: organization-defined\r\nfrequency] or as required, to address organizational changes.",
+        "priority": 0,
+        "related_controls": [],
+        "title": "RISK MANAGEMENT STRATEGY",
+        "control_id": 9,
+        "supplemental_guidance": "An organization-wide risk management strategy includes, for example, an unambiguous expression of the risk tolerance for the organization, acceptable risk assessment methodologies, risk mitigation strategies, a process for consistently evaluating risk across the organization with respect to the organization\u2019s risk tolerance, and approaches for monitoring risk over time. The use of a risk executive function can facilitate consistent, organization-wide application of the risk management strategy. The organization-wide risk management strategy can be informed by risk-related inputs from other sources both internal and external to the organization to ensure the strategy is both broad-based and comprehensive. ",
+        "control_family": 18,
+        "references": "NIST Special Publications 800-30, 800-39"
+    }
+}]
